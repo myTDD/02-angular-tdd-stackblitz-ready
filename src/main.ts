@@ -23,6 +23,7 @@ import {
 //import './app/heroes/heroes.service.spec.ts';
 //import './testing/http-client.spec.ts';
 import './app/app.component.spec.ts';
+import './app/components/header/header.component.spec.ts';
 
 //
 bootstrap();
