@@ -24,6 +24,8 @@ import {
 //import './testing/http-client.spec.ts';
 import './app/app.component.spec.ts';
 import './app/components/header/header.component.spec.ts';
+import './app/components/new-message-form/new-message-form.component.spec.ts';
+import './app/components/message-list/message-list.component.spec.ts';
 
 //
 bootstrap();
