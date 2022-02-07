@@ -23,7 +23,7 @@ describe('MessageListComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should show message list', () => {
-    expect(fixture.nativeElement.querySelector('[data-test="message-list"]')).toBeTruthy();
-  });
+  // it('should show message list', () => {
+  //   expect(fixture.nativeElement.querySelector('[data-test="message-list"]')).toBeTruthy();
+  // });
 });

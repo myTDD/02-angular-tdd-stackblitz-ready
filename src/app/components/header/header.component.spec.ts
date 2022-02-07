@@ -24,12 +24,12 @@ describe('HeaderComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should show title', () => {
-    expect(fixture.nativeElement.querySelector('[data-test="title"]')).toBeTruthy();
-  });
+  // it('should show title', () => {
+  //   expect(fixture.nativeElement.querySelector('[data-test="title"]')).toBeTruthy();
+  // });
 
-  it('should show title text "Welcome to Angular"', () => {
-    const title = fixture.debugElement.query(By.css('h1')).nativeElement;
-    expect(title.innerHTML).toBe('Welcome to Angular');
-  });
+  // it('should show title text "Welcome to Angular"', () => {
+  //   const title = fixture.debugElement.query(By.css('h1')).nativeElement;
+  //   expect(title.innerHTML).toBe('Welcome to Angular');
+  // });
 });

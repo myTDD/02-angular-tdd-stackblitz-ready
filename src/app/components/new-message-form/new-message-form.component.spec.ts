@@ -23,11 +23,11 @@ describe('NewMessageFormComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  it('should show text box', () => {
-    expect(fixture.nativeElement.querySelector('[data-test="text-box"]')).toBeTruthy();
-  });
+  // it('should show text box', () => {
+  //   expect(fixture.nativeElement.querySelector('[data-test="text-box"]')).toBeTruthy();
+  // });
 
-  it('should show submit button', () => {
-    expect(fixture.nativeElement.querySelector('[data-test="submit-button"]')).toBeTruthy();
-  });
+  // it('should show submit button', () => {
+  //   expect(fixture.nativeElement.querySelector('[data-test="submit-button"]')).toBeTruthy();
+  // });
 });
